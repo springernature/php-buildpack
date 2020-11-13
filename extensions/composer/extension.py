@@ -174,7 +174,7 @@ class ComposerExtension(ExtensionHelper):
         return {
             'COMPOSER_VERSION': default_version,
             'COMPOSER_PACKAGE': 'composer.phar',
-            'COMPOSER_DOWNLOAD_URL': '/composer/'
+            'COMPOSER_DOWNLOAD_URL': '/download/'
                                      '{COMPOSER_VERSION}/{COMPOSER_PACKAGE}',
             'COMPOSER_INSTALL_OPTIONS': ['--no-interaction', '--no-dev'],
             'COMPOSER_VENDOR_DIR': '{BUILD_DIR}/{LIBDIR}/vendor',
